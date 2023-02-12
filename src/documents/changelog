@@ -1,0 +1,180 @@
+<b><u>stable versions</u></b>
+
+<b>1.0.0 <i>[current stable version]</i></b>
+0.98.3rc beta -> 1.0.0 stable
+
+<b><u>beta versions</u></b>
+
+<b>0.98.3rc</b>
+- the invaders now 'spawn from above' every new (and/or reset) game
+- added a new console command
+- improved other commands
+- type in a command twice to reverse its effect
+- formatted the changelog and added a description for the usage of the console
+- bugfix: a command didn't work properly
+
+<b>0.98.2</b>
+- improved the console
+- changed the console colors
+- added some more console commands
+- if the console is once activated a console menu-item (including a mnemonic) appears
+- some highscore-table display improvements (status + lifes left)
+- bugfix: the window now displays the right status every time the player loses/wins
+- bugfix: some security issues solved
+
+<b>0.98.1</b>
+- added a console
+- improved randomness
+- added double-shots for the modes 'nooby' and 'easy'
+- bugfix: when a player was killed the sprite has not been located at the right position
+- bugfix: when a player was killed and had 0 lives left the correct sprite has not been displayed
+
+<b>0.98</b>
+- added a 'player destroyed' sprite
+- turned the different aliens on screen (biggest down, smallest up)
+- updated the splash screen-image
+- added pre-caching of the sound-effects
+- improved pre-cashing of images
+- improved exception handling and output
+- improved text-windows and highscore table-window
+- the correct score in relation to the mode for each invader is displayed at the start screen
+
+<b>0.97.3</b>
+- the .jsi-files are not longer invisible under windows due to problems with saving
+- added translations for the modes
+- bugfix: game now resumes only when the game window is focused
+- bugfix [windows]: the highscore table has not been saved after the first saving
+
+<b>0.97.2</b>
+- the encrypted highscore table is now shuffled randomly
+- bugfix: removed redundant highscore table row
+- bugfix [linux]: some window and text adaptations
+
+<b>0.97.1</b>
+- beautified the highscore table-view
+- the mode is now better readable
+- bugfix [windows xp]: made the .jsi-files invisible
+- bugfix [windows, linux]: the highscore table only appeared if the window was manually resized
+- bugfix [linux]: the bottom of the field did not fully appear at the screen
+
+<b>0.97</b>
+- added highscore table encryption
+- changed the format name of external files to .jsi and made them invisible
+- added additional information (place, mode, died or survived) for every highscore list entry
+- adjusted the number of points the player gets for killing an invader
+- corrected misspellings
+- bugfix: the 'ok-cancel'-dialog when pressed 'reset highscore list' was not fully visible
+
+<b>0.96</b>
+- added an improved collision detection
+- added a simple highscore table (not encrypted yet)
+- added 'previous' and 'next'-buttons to the image-windows
+- bugfix: fixed the right display if the final score
+- bugfix: fixed text size (was a bit too big, didn't fit into the window)
+- bugfix [windows]: fixed window size (was a bit too small)
+
+<b>0.95.2</b>
+- [windows and linux] the game pauses now if the mouse hovers over the menu bar
+- added some marquee text
+- changed the color of marquee messages
+- changed the font of in-game text
+- added 2 more interesting comics (menu "help" -> "more")
+- bugfix: displays now the correct score format
+- bugfix [windows]: window is now a bit bigger to display everything correctly
+
+<b>0.95.1</b>
+- added menu "more" in the menu "help" with 2 interesting comics
+- set system (independent) look-and-feel (laf)
+- changed the style of the about-window
+- changed the style of the text-windows
+- added source-links to some of the textwindows
+- added a tooltip displaying the website it refers to to every hyperlink
+- bugfix: after restarting/losing/winning a game the message "window deactivated" appeared
+
+<b>0.95</b>
+- added language support for english and german (and the possibility to add more languages)
+- improved pre-cashing of externalized strings, images, sprites and sounds
+- added a 'quit'-button to the mode chooser
+- bugfix: clicking on 'cancel' at the quit dialog started a game
+- bugfix: started a game immediately after winning a game
+- bugfix: displayed 'paused game - window deactivated' after winning or losing a game
+- bugfix: the modechoser-, about- and any text-window couldn't be closed via 'x' in its menu
+- bugfix [mac os]: displays now the correct game name in the menu
+
+<b>0.94.2</b>
+- added a message when a window should be closed
+- game pauses if the focus is not on the main window any more
+- speed improvements
+
+<b>0.94.1</b>
+- added the points for a killed invader to the main screen
+- bugfix: the player could'nt pause the game
+- bugfix: %-indicator corrected
+
+<b>0.94</b>
+- added the special 'mystery ship'
+- added mouse motion-support that enables the player to move the ship with the mouse
+- added a background image
+- redesigned the splash creen
+- cleaned up the notifications
+- added a changelog
+- added a %-indicator to the process bar of the splash screen
+
+<b>0.93</b>
+- added a splash screen with a loading bar
+- added that the invader explodes if a shot hits it
+- added a short history of space invaders
+- added a short introduction to space invaders (gameplay)
+- added control information
+- added acknowledgements and copyright
+
+<b>0.92</b>
+- added a pause mode
+- the player now can shoot up the invader's shots
+- added sound effects for invader's deaths and player's death
+- added the original space invaders logo to about
+
+<b>0.91.1</b>
+- added sound effects for shots and moving invaders
+- added the invader-shooting
+- added shortcuts (e.g. for about, new game, ...)
+
+<b>0.91</b>
+- added mouse-support (only firing enabled) in addition to the keyboard
+- added 6 different levels of difficulty, from nooby to insane
+- the invaders are now separated into 3 different types of aliens
+
+<b>0.1 beta- 0.90</b>
+- implemented the main game functionality
+<hr>
+<b><u>features to add</u></b>
+
+- destructible barriers where the player can hide
+- levels (infinite and mission)
+(- more languages for the language support)
+<hr>
+<b><u>notes</u></b>
+
+- every change includes (at least minor) bug fixes and improvements
+- built with eclipse (64 bit) under mac os x 10.6.4
+- tested systems:<pre>
+  - mac os x (10.6.4)
+  - linux (ubuntu, open suse)
+  - windows (xp, vista, 7)</pre>
+<hr>
+<b><u>console</u></b>
+
+- get a console: meta (on mac) / ctrl (on pc) + shift
+- you will only get a console if you type in the combination the first time the game starts
+- after console activation you can access the console via the menu bar
+- console commands:<pre>
+  - deactivateallcheats       (deactivates every activated cheat)
+  - doublefirepowerftw        (double guns -- not activated when insanefirepowerftw is active)
+  - insanefirepowerftw        (insane guns -- overwrites doublefirepowerftw)
+  - iamunbreakable            (makes you unbreakable)
+  - disguiseme                (you become an alien -- not activated when lolfumode is active)
+  - lolfumode                 (lol and fu-mode -- not activated when disguiseme is active)
+  - rulethehighscore          (let's you betray the highscore-list)
+  - iamthemasteroftheuniverse (activates the strongest cheats)</pre>
+
+ 

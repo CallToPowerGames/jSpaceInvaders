@@ -1,0 +1,66 @@
+jSpaceInvaders
+--------------
+Space Invaders is a two-dimensional fixed shooter game in which
+the player controls a laser cannon by moving it horizontally across
+the bottom of the screen and firing at descending aliens.
+The aim is to defeat five rows of thirteen aliens that move horizontally
+back and forth across the screen as they advance towards the bottom of the screen.
+The player defeats an alien, and earns points, by shooting it with the laser cannon.
+As more aliens are defeated, the aliens' movement speeds up.
+The aliens attempt to destroy the cannon by firing at it while they
+approach the bottom of the screen.
+If they reach the bottom, the alien invasion is successful and the game ends.
+A special "mystery ship" will occasionally move across the top of the screen
+and award bonus points if destroyed.
+[Read more at Wikipedia (en)@http://en.wikipedia.org/wiki/Space_Invaders]
+
+Features
+--------
+- Play "old-school" Space Invaders
+- The Invaders get faster the more you kill
+- The Invaders strike back
+- 6 Difficulties (Modes), from "Nooby" to "Insane"
+    - Higher Mode means:
+        - Invaders are faster
+        - Invaders get faster the more the Player kills
+        - Invaders have a faster Shot
+        - The Probability of an Aliens Shot is higher
+        - The Invader's Shot Frequency is higher
+        - The Player is slower
+        - The Player has a slower Shot
+        - The Player's Shot Frequency is lower
+        - The Player earns more Points for killing an Invaders
+- Original Sounds (Explosion, Shots, ...) and Sprites (Background, Invaders, Ship, ...)
+- English and German Localization
+- Some special Commands (commonly known as "Cheats") are available (for more Information have a look at the Log)
+
+Current Version
+---------------
+v1.0.0
+
+Developer
+---------
+Denis Meyer
+
+Copyright
+---------
+Copyright 2010-2013 by Denis Meyer, CallToPower Software
+All Rights reserved 2010-2013 by Denis Meyer, CallToPower Software
+Graphics and Concept -- Copyright 1978 by Tomohiro Nishikado, Taito Corp.
+This Game is an unofficial Clone of the original Space Invaders Game
+and is not endorsed by the Copyright Owners Taito Corp.
+
+Tested Systems
+--------------
+- Mac OS X 10.9
+- Windows 7, Windows 8
+
+To compile it under OS\{Mac OS X}
+---------------------------------
+- Comment out
+	- the "MacOSHandler" and
+	- the "isMac()-Loops" inside the "GameController".
+- With Eclipse (if JSIEnDeCrypt has Errors):
+	- Go to "Properties-Java Build Path-Libraries"
+	- Remove JRE System Library
+	- Add JRE System Library

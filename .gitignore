@@ -1,0 +1,10 @@
+build.xml
+build/
+manifest.mf
+nbproject/
+/dist/
+.classpath
+.db.jsi
+.key.jsi
+.project
+bin
